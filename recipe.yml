@@ -31,13 +31,6 @@ stages:
       - wireguard-tools
       - wireguard
 
-  - name: wireguard
-    type: apt
-    source:
-      packages:
-      - wireguard-tools
-      - wireguard
-
   # Put your custom actions before this comment
 
   - name: set-image-name-abroot
